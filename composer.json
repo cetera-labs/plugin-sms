@@ -1,0 +1,26 @@
+{
+    "name": "cetera-labs/plugin-sms",
+    "description": "Отправка SMS сообщений",
+    "type": "cetera-cms-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Romanov",
+            "role": "Lead Developer"
+        }
+    ],
+    
+    "minimum-stability": "dev",
+    
+    "autoload": {
+        "psr-0": { 
+			"Sms\\": "classes/"
+		}
+    },
+
+    "extra": {
+        "name": "sms",
+        "title": "Отправка SMS сообщений",
+        "description": ""
+    }
+}
