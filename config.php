@@ -16,6 +16,7 @@ if ($this->getBo() && $this->getUser() && $this->getUser()->isAdmin() ) {
     	'position' => MENU_PLUGINS,
         'name' 	   => 'SMS',
         'icon'     => '/cms/plugins/sms/images/icon.gif',
+        'iconCls'  => 'x-fa fa-sms',
         'class'    => 'Plugin.sms.Panel'
     ));
 
